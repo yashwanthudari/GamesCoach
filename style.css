@@ -11,7 +11,7 @@
   --color-brown-600: rgba(94, 82, 64, 1);
   --color-charcoal-700: rgba(31, 33, 33, 1);
   --color-charcoal-800: rgba(38, 40, 40, 1);
-  --color-slate-900: rgba(19, 52, 59, 1);
+  --color-slate-900: rgb(19, 59, 20);
   --color-teal-300: rgba(50, 184, 198, 1);
   --color-teal-400: rgba(45, 166, 178, 1);
   --color-teal-500: rgba(33, 128, 141, 1);
@@ -737,7 +737,6 @@ select.form-control {
     format('woff2');
 }
 
-/* END PERPLEXITY DESIGN SYSTEM */
 /* Main Casino Website Styles */
 .main-header {
   background: linear-gradient(135deg, #1a0b2e 0%, #16213e 50%, #0f0f23 100%);
@@ -789,11 +788,11 @@ select.form-control {
 
 /* Hero Section */
 .hero {
-  background: linear-gradient(rgba(26, 11, 46, 0.8), rgba(15, 15, 35, 0.8)), 
+  background: linear-gradient(rgba(48, 167, 167, 0.8), rgba(15, 15, 35, 0.8)), 
               radial-gradient(circle at 50% 50%, #1a0b2e 0%, #0f0f23 100%);
   padding: var(--space-32) 0;
   text-align: center;
-  min-height: 400px;
+  min-height: 200px;
   display: flex;
   align-items: center;
 }
@@ -921,9 +920,9 @@ select.form-control {
 /* Chat Button (Collapsed State) */
 .chat-button {
   position: relative;
-  width: 60px;
-  height: 60px;
-  background: linear-gradient(135deg, #1E3A8A 0%, #3B82F6 100%);
+  width: 80px;
+  height: 80px;
+  background: linear-gradient(135deg, #21b564 0%, #3B82F6 100%);
   border-radius: var(--radius-full);
   display: flex;
   align-items: center;
@@ -931,7 +930,7 @@ select.form-control {
   cursor: pointer;
   box-shadow: 0 8px 32px rgba(30, 58, 138, 0.4);
   transition: all var(--duration-normal) var(--ease-standard);
-  animation: pulse 2s infinite;
+  animation: pulse 1s infinite;
 }
 
 @keyframes pulse {
