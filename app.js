@@ -44,7 +44,7 @@ class TaraChatWidget {
         this.knowledgeBase = {
             Registration: {
                 keywords: ['login', 'How to sign Up', 'How to login', 'Register', 'Creat account', 'Sign up', 'sign in'],
-                response: '🎰 <strong>Greetings !!!</strong><br><br> You can sign up by clicking the link below:<br><a href="https://yashwanthudari.github.io/GamesCoach/signup.html" target="_blank">👉 Sign Up Here</a>'
+                response: '🎰 <strong>Greetings !!!</strong><br><br> You can sign up by clicking the link below:<br><a href="https://yashwanthudari.github.io/GamesCoach/signup.html" target="_blank">👉 Login Here</a>'
             },
             slots: {
                 keywords: ['slot', 'slots', 'spin', 'reel', 'jackpot', 'payline', 'rtp'],
